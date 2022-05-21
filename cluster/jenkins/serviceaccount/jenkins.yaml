@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"v1","kind":"ServiceAccount","metadata":{"annotations":{},"name":"jenkins","namespace":"jenkins"}}
+  creationTimestamp: "2022-05-20T02:34:35Z"
+  name: jenkins
+  namespace: jenkins
+  resourceVersion: "2173"
+  uid: f9cf3c27-6e16-47ab-8b54-c15e2b01f076
+secrets:
+- name: jenkins-token-57ngc

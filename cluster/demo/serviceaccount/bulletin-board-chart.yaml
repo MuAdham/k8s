@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  annotations:
+    meta.helm.sh/release-name: bulletin-board-chart
+    meta.helm.sh/release-namespace: demo
+  creationTimestamp: "2022-05-21T05:20:21Z"
+  labels:
+    app.kubernetes.io/instance: bulletin-board-chart
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: bulletin-board
+    app.kubernetes.io/version: v0.3
+    helm.sh/chart: bulletin-board-0.1.0
+  name: bulletin-board-chart
+  namespace: demo
+  resourceVersion: "64050"
+  uid: 82e31440-0574-46d5-bf2c-bcefa2c74be5
+secrets:
+- name: bulletin-board-chart-token-rm9zs
