@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  annotations:
+    cloud.weave.works/launcher-info: |-
+      {
+        "original-request": {
+          "url": "/k8s/v1.16/net.yaml?k8s-version=Q2xpZW50IFZlcnNpb246IHZlcnNpb24uSW5mb3tNYWpvcjoiMSIsIE1pbm9yOiIyMiIsIEdpdFZlcnNpb246InYxLjIyLjgiLCBHaXRDb21taXQ6IjcwNjFkYmJmNzVmOWY4MmU4YWIyMWY5YmU3ZThmZmNhYWU4ZTBkNDQiLCBHaXRUcmVlU3RhdGU6ImNsZWFuIiwgQnVpbGREYXRlOiIyMDIyLTAzLTE2VDE0OjEwOjA2WiIsIEdvVmVyc2lvbjoiZ28xLjE2LjE1IiwgQ29tcGlsZXI6ImdjIiwgUGxhdGZvcm06ImxpbnV4L2FtZDY0In0KU2VydmVyIFZlcnNpb246IHZlcnNpb24uSW5mb3tNYWpvcjoiMSIsIE1pbm9yOiIyMiIsIEdpdFZlcnNpb246InYxLjIyLjkiLCBHaXRDb21taXQ6IjZkZjQ0MzNlMjg4ZWRjOWM0MGMyZTM0NGViMzM2ZjYzZmFkNDVjZDIiLCBHaXRUcmVlU3RhdGU6ImNsZWFuIiwgQnVpbGREYXRlOiIyMDIyLTA0LTEzVDE5OjUyOjAyWiIsIEdvVmVyc2lvbjoiZ28xLjE2LjE1IiwgQ29tcGlsZXI6ImdjIiwgUGxhdGZvcm06ImxpbnV4L2FtZDY0In0K",
+          "date": "Fri May 20 2022 00:17:46 GMT+0000 (UTC)"
+        },
+        "email-address": "support@weave.works"
+      }
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"v1","kind":"ServiceAccount","metadata":{"annotations":{"cloud.weave.works/launcher-info":"{\n  \"original-request\": {\n    \"url\": \"/k8s/v1.16/net.yaml?k8s-version=Q2xpZW50IFZlcnNpb246IHZlcnNpb24uSW5mb3tNYWpvcjoiMSIsIE1pbm9yOiIyMiIsIEdpdFZlcnNpb246InYxLjIyLjgiLCBHaXRDb21taXQ6IjcwNjFkYmJmNzVmOWY4MmU4YWIyMWY5YmU3ZThmZmNhYWU4ZTBkNDQiLCBHaXRUcmVlU3RhdGU6ImNsZWFuIiwgQnVpbGREYXRlOiIyMDIyLTAzLTE2VDE0OjEwOjA2WiIsIEdvVmVyc2lvbjoiZ28xLjE2LjE1IiwgQ29tcGlsZXI6ImdjIiwgUGxhdGZvcm06ImxpbnV4L2FtZDY0In0KU2VydmVyIFZlcnNpb246IHZlcnNpb24uSW5mb3tNYWpvcjoiMSIsIE1pbm9yOiIyMiIsIEdpdFZlcnNpb246InYxLjIyLjkiLCBHaXRDb21taXQ6IjZkZjQ0MzNlMjg4ZWRjOWM0MGMyZTM0NGViMzM2ZjYzZmFkNDVjZDIiLCBHaXRUcmVlU3RhdGU6ImNsZWFuIiwgQnVpbGREYXRlOiIyMDIyLTA0LTEzVDE5OjUyOjAyWiIsIEdvVmVyc2lvbjoiZ28xLjE2LjE1IiwgQ29tcGlsZXI6ImdjIiwgUGxhdGZvcm06ImxpbnV4L2FtZDY0In0K\",\n    \"date\": \"Fri May 20 2022 00:17:46 GMT+0000 (UTC)\"\n  },\n  \"email-address\": \"support@weave.works\"\n}"},"labels":{"name":"weave-net"},"name":"weave-net","namespace":"kube-system"}}
+  creationTimestamp: "2022-05-20T02:17:44Z"
+  labels:
+    name: weave-net
+  name: weave-net
+  namespace: kube-system
+  resourceVersion: "336"
+  uid: 6a94b744-ac15-4e12-b025-3324658275e5
+secrets:
+- name: weave-net-token-xdck4

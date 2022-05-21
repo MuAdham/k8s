@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  creationTimestamp: "2022-05-20T02:17:54Z"
+  name: pv-protection-controller
+  namespace: kube-system
+  resourceVersion: "423"
+  uid: 6c3dbe8a-d674-4e76-b6e2-df416f9c8e5f
+secrets:
+- name: pv-protection-controller-token-4tvmt

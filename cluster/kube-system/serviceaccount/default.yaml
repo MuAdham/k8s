@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  creationTimestamp: "2022-05-20T02:17:55Z"
+  name: default
+  namespace: kube-system
+  resourceVersion: "463"
+  uid: d387c4d0-092e-4dde-baf6-545fac0cc493
+secrets:
+- name: default-token-pbf2b

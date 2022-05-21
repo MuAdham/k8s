@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  creationTimestamp: "2022-05-20T02:17:41Z"
+  name: daemon-set-controller
+  namespace: kube-system
+  resourceVersion: "274"
+  uid: 0fff72d4-cb87-4406-88ec-0dc6d9902473
+secrets:
+- name: daemon-set-controller-token-bhpdk

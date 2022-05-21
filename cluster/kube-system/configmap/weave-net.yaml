@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  annotations:
+    kube-peers.weave.works/peers: '{"Peers":[{"PeerName":"be:87:54:11:91:91","NodeName":"master-node"},{"PeerName":"36:eb:64:dc:bd:e3","NodeName":"worker-node01"},{"PeerName":"16:5c:ca:9f:28:e8","NodeName":"worker-node02"}]}'
+  creationTimestamp: "2022-05-20T02:18:49Z"
+  name: weave-net
+  namespace: kube-system
+  resourceVersion: "1537"
+  uid: ac3e05b7-a030-4d93-b589-d64d5e313d55
