@@ -1,1 +1,1 @@
-The cloned bulletin app with modifed `Dockerfile`
+# bulletin-app
